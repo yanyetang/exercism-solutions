@@ -2,23 +2,6 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Structure
-
-Exercises are organized by language: `bash/` and `python/`. Each exercise lives in its own subdirectory with the solution file(s) and auto-generated test file.
-
-## Running Tests
-
-**Python** (from `python/` directory):
-```bash
-uv run pytest leap/                  # run a single exercise
-uv run pytest                        # run all python exercises
-```
-
-**Bash** (from within the exercise directory):
-```bash
-bats hello_world.bats                # run a single exercise
-```
-
 ## Syncing with GitHub
 
 After completing an exercise:

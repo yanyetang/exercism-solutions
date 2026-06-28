@@ -9,14 +9,13 @@ My solutions to [Exercism](https://exercism.org) exercises, organized by languag
 
 ## Running Tests
 
-**Python**
+**Python** (from `python/` directory)
 ```bash
-cd python
 uv run pytest <exercise>/          # single exercise
 uv run pytest                      # all exercises
 ```
 
-**Bash** (from within the exercise directory)
+**Bash** (from `bash/<exercise>/` directory)
 ```bash
 bats <exercise>.bats               # run tests (first unskipped test only)
 BATS_RUN_SKIPPED=true bats <exercise>.bats  # run all tests including skipped
